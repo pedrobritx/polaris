@@ -24,3 +24,5 @@ python3 automation/constellation.py --config integration/project.example.json --
 ```
 
 The planning example requires sibling checkouts for its selected disciplines. Local documentation/tests run without those checkouts. The engineering scaffold is maintained in Axis. Constellation product/application work belongs in its own repository. Canonical philosophical amendments remain separate decisions.
+
+[Evidence-Based Engineering adoption](decisions/adr/007-evidence-based-engineering.md) records policy authority and ownership.

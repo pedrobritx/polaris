@@ -2,7 +2,7 @@
 title: Project Rules
 owner: CEO
 status: Active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 # PROJECT RULES — Operating rules derived from the Polaris Constitution
@@ -93,3 +93,9 @@ Ratified constitutional commitments govern derived practice. Adopted hard projec
 ## 10. Session hygiene
 
 Start at `START_HERE.md`. Update `HANDOFF.md` and `STATUS.md` when repository state changes or unfinished work needs durable continuity. Read-only reviews may deliver their evidence in a review artifact without touching operational status. Preserve earlier records instead of rewriting history.
+
+## 11. Evidence-Based Engineering
+
+The owner's scoped operational adoption is recorded in [ADR-007](decisions/adr/007-evidence-based-engineering.md). Follow [Axis's engineering policy](https://github.com/pedrobritx/axis/blob/main/guides/evidence-based-engineering.md) for local-first verification, Docker-first where feasible (native Apple/contextual exceptions), reversible increments, risk-scaled checks, reproducibility, secure defaults, observability and CI evidence. Sentinel owns security-specific evidence; [composition](integration/README.md) retains responsibility and source revisions.
+
+Agree observable acceptance criteria before dependent implementation. Run available relevant checks locally before remote/shared publication, including GitHub pushes/PRs and shared Figma writes; record blockers and obtain explicit scoped exceptions for unmet publication prerequisites. A local Git commit is a reversible checkpoint, not publishing or merging. Review-branch publication, merge, deployment, library publication and release retain distinct authority gates. Use existing task/PR/handoff records for evidence and ADRs only for consequential decisions; add no ceremony solely to satisfy this policy. Flag conflicts with exact ratified text; do not silently override it.

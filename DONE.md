@@ -2,7 +2,7 @@
 title: Polaris definition of done
 owner: Maintainer
 status: Active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 # Completion evidence
@@ -16,3 +16,5 @@ Apply checks to the actual deliverable; state material limitations and reasons f
 - Inspect diffs for accidental public-contract changes, secrets, copied policy, generated noise and unrelated edits. Product-facing behaviour receives appropriate functional, accessibility, privacy and security checks in its own repository.
 - Update owning documentation and the local CHANGELOG. Update STATUS/HANDOFF for changed state or unfinished work; preserve historical records.
 - Keep unresolved decisions, residual risk and deployment/publication/merge gates explicit. A plan, passing test or completed discipline task does not grant external authority.
+
+Local-first publication prerequisites from [ADR-007](decisions/adr/007-evidence-based-engineering.md) are satisfied or have an explicit scoped owner exception; local commits, remote publication, CI, merge and runtime evidence remain distinct.

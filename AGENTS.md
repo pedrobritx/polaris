@@ -2,7 +2,7 @@
 title: AI Entry Point (Agents)
 owner: CEO
 status: Active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 # AI onboarding — read this first
@@ -28,3 +28,5 @@ Polaris holds the Polaris Constitution (canonical in `polaris/`) and the governa
 ## When building *other* projects from this repo
 
 A project explicitly records adoption of Polaris governance and its applicable profiles. Standalone use of Axis, Meridian or Sentinel does not silently adopt the full Polaris process; each capability retains its own essential quality and safety guarantees. For governed projects, translate the constitutional principles and operating framework to the project's risk profile — reuse the principle, not the dogma.
+
+Read the Evidence-Based Engineering adoption in [PROJECT_RULES.md](PROJECT_RULES.md) and [ADR-007](decisions/adr/007-evidence-based-engineering.md) before implementation or publication. Carry its local verification prerequisites and separate publication/merge authority into handoffs.

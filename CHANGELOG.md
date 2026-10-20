@@ -2,10 +2,14 @@
 title: Polaris changelog
 owner: Maintainer
 status: Active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 # Changelog
+
+## Unreleased — 2026-10-20
+
+- Apply the owner-approved Evidence-Based Engineering policy through owning documentation and agent entry points: local verification before remote/shared publication, contextual Docker/native environments, reversible changes and risk-scaled evidence. Preserve existing architecture and separate publication/merge/release gates.
 
 ## Unreleased — 2026-10-16
 
