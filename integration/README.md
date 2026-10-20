@@ -2,7 +2,7 @@
 title: Constellation composition contract
 owner: Polaris maintainer
 status: Active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 # Compose capabilities through Polaris
@@ -63,3 +63,7 @@ The plan embeds the request, adoption decision, source revisions, reading paths,
 - Interface/decision changes, blockers, residual risks and the next responsible owner.
 
 These return fields are a review protocol, not an automated assurance verdict. Polaris verifies acceptance criteria against the resulting artifacts and integrated checks. A document validation pass proves document health, not application behaviour, accessibility conformance or security.
+
+## Evidence-Based Engineering handoff
+
+Apply [ADR-007](../decisions/adr/007-evidence-based-engineering.md) through the existing loop and result fields; no new planner/schema is required. Carry observable acceptance criteria, affected failure scenarios, local environment (Docker or justified native alternative), required checks and publication prerequisites. Axis supplies engineering methods; Sentinel supplies security evidence. The coordinator reviews integrated evidence and keeps local commits, remote publication, CI, merge, release and runtime observation distinct. Required checks not run remain blockers or explicit scoped owner exceptions, never implied passes.

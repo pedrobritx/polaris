@@ -1,4 +1,19 @@
 ---
+title: Evidence-Based Engineering continuity
+owner: Maintainer
+status: Active
+last_updated: 2026-10-20
+---
+
+# Current Evidence-Based Engineering work
+
+Owner-approved policy implementation is prepared on `docs/evidence-based-engineering`. Polaris records operational adoption (ADR-007); Axis owns engineering methods; Sentinel owns security evidence; Constellation maintains workflow/profile adapters. Canonical philosophical text and architecture remain unchanged. Local validation results and exact revisions are reported with the review changes. Required GitHub protection enforcement, merge, deployment and account-plugin activation are separate states and are not implied by this record.
+
+Review coordinated changes before merge; resolve any contrary ratified commitment explicitly. Use existing records rather than introducing per-task bureaucracy.
+
+## Preserved previous record
+
+---
 title: Polaris handoff
 owner: Maintainer
 status: Active
